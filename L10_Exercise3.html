@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lesson 10 JavaScript </title>
+    </head>
+    <body>
+        <h2>C369 - Hours of Study </h2>
+        <p> Number of Modules : <span id="mod"> </span></p>
+        <p> Hours of study for each module : <span id="hrMod"> </span></p>
+        <p>Total number of hours of study for all the modules : <span id="total"> </span></p>
+
+        <script>
+            var noOfModules = 5;
+            var noOfHoursOfStudy = 4;
+            var TotalHours = noOfModules * noOfHoursOfStudy;
+            document.getElementById("mod").innerHTML = noOfModules;
+            document.getElementById("hrMod").innerHTML = noOfHoursOfStudy;
+            document.getElementById("total").innerHTML = TotalHours;
+            console.log("Number of Modules :" + noOfModules );
+            console.log("Hours of study for each module : " + noOfHoursOfStudy );
+            console.log("Total number of hours of study for all the modules : :" + TotalHours );
+            alert("Total number of hours of study for " + noOfModules + " modules for " +
+            noOfHoursOfStudy + "hours of study for each modules is:" + TotalHours  )
+        </script>
+    </body>
+</html
